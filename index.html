@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="">
+<html lang="en" data-ng-app="demoApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Learning Angular</title>
@@ -8,21 +8,19 @@
 <body>
 	
 	<nav>
-		
 	</nav>
 
 	<!-- Load in content here -->
-	<main>
-		
-	</main>
+	<ng-view>
+	</ng-view>
+
 
 	<footer>
-		
 	</footer>
 
 	<!-- Vendor Libs -->
  	<script src="assets/js/angular.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
+ 	<script src="assets/js/angular-route.js"></script>
 
     <!-- App libs -->
     <script src="app/app.js"></script>
